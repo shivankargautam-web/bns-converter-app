@@ -1,42 +1,32 @@
 {
   "expo": {
-    "name": "bns-converter-app",
+    "name": "BNS Converter",
     "slug": "bns-converter-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "bnsconverterapp",
-    "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "scheme": "bnsconverter",
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.yourcompany.bnsconverter",
+      "buildNumber": "1.0.0"
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true
+      "package": "com.yourcompany.bnsconverter",
+      "versionCode": 1
     },
     "web": {
-      "bundler": "metro",
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/favicon.png"
     },
-    "plugins": [
-      "expo-router",
-      [
-        "expo-splash-screen",
-        {
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
-        }
-      ]
-    ],
-    "experiments": {
-      "typedRoutes": true
-    }
+    "extra": {
+      "eas": {
+        "projectId": "aee2fe44-d140-47fc-a54d-c7f3616cd74c"
+      }
+    },
+    "owner": "ashish1985"
   }
 }
