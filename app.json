@@ -4,9 +4,9 @@
     "slug": "bns-converter-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/images/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/images/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -20,13 +20,16 @@
       "versionCode": 1
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/images/favicon.png"
     },
     "extra": {
       "eas": {
         "projectId": "aee2fe44-d140-47fc-a54d-c7f3616cd74c"
       }
     },
-    "owner": "ashish1985"
+    "owner": "ashish1985",
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
