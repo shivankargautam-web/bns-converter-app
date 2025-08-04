@@ -59,7 +59,7 @@ export default function Lookup() {
 
   return (
     <ImageBackground
-      source={require('../../assets/images/ALDHC_background.png')}
+      source={require('../../assets/images/allahabad-high-court_2.jpg')}
       style={styles.background}
       imageStyle={{ opacity: 0.6 }}
     >
