@@ -29,7 +29,15 @@
     },
     "owner": "ashish1985",
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "expo-build-properties",
+      {
+        "android": {
+          "kotlinJvmTarget": "17",
+          "compileSdkVersion": 33,
+          "targetSdkVersion": 33
+        }
+      }
     ]
   }
 }
