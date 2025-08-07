@@ -1,4 +1,5 @@
 // app/index.tsx
+//app file
 
 import { Link } from 'expo-router';
 import React from 'react';
